@@ -1,3 +1,9 @@
+*{
+    box-sizing:border-box;
+    
+
+}
+
 h1 {
 color:white;
 font-size:30px;
@@ -101,27 +107,29 @@ body {
 }
 #perros{
 float:left;
+height:100%;
 
 }
 
 #gatos {
     float:left;
-
+    height:100%;
 }
 
 #elefantes{
     float:left;
+    height:100%;
  
 }
 
 
 #img-g{
-    width:350px;
+    width:200px;
 
 }
 
 #img-e{
-    width:300px;
+    width:200px;
 
 
 }
@@ -130,5 +138,9 @@ float:left;
     content: "";
     clear: both;
     display: table;
+  }
+
+  header {
+      margin-bottom: 20px;
   }
 
