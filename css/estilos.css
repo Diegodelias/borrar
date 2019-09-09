@@ -1,0 +1,130 @@
+h1 {
+color:white;
+font-size:30px;
+
+}
+
+#logo {
+    width:70px;
+}
+
+.img-p{
+    width:200px;
+
+}
+            
+
+
+ul {
+    list-style: none;
+  
+
+}
+
+
+nav {
+    float:right;
+    position: relative;
+    margin-right:25px;
+    
+
+}
+
+#menu li {
+    display: inline-block;
+    padding:5px;
+
+}
+
+#titulo-1{
+    position:absolute;
+    top: 40px;
+    left:20px;
+}
+
+a:link{
+    text-decoration: none;
+}
+ #articulo1 {
+
+    text-align:center;
+}
+
+
+
+#contenedor{
+    max-width:70%;
+    height:auto;
+    margin: 0px auto 0px auto;
+    background-color:white;
+    padding: 70px 80px 0px 80px;
+}
+
+#inicio {
+
+    position:relative;
+   /* margin:0px 20px 0px 20px;*/
+}
+#img_masc{
+    height:500px;
+    width:100%;
+}
+
+body {
+
+    background-color:grey;
+}
+
+#articulo2{
+    
+    width:50%;
+    text-align: center
+}
+
+#articulo3 {
+    width:50%;
+    float:right;
+    position:relative;
+    bottom:220px;
+    text-align: center
+}
+
+
+.mascotas {
+
+    width:32%;
+    text-align:center;
+    padding: 0px 5px 0px 5px;
+}
+
+#gatos {
+    float:right;
+    position:relative;
+    bottom:450px;
+}
+
+#elefantes{
+    float:right;
+    position:relative;
+    bottom:510px;
+}
+
+#perros{
+    position:relative;
+}
+#img-g{
+    width:350px;
+
+}
+
+#img-e{
+    width:300px;
+
+
+}
+
+#img-clientes{
+    position:relative;
+    bottom: 430px;
+    margin-left:-50px;
+}
