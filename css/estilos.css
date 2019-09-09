@@ -6,6 +6,7 @@ font-size:30px;
 
 #logo {
     width:70px;
+    float:left;
 }
 
 .img-p{
@@ -23,9 +24,10 @@ ul {
 
 
 nav {
-    float:right;
+    float:left;
     position: relative;
-    margin-right:25px;
+    margin-left: 60%;
+
     
 
 }
@@ -63,11 +65,13 @@ a:link{
 #inicio {
 
     position:relative;
+    
    /* margin:0px 20px 0px 20px;*/
 }
 #img_masc{
     height:500px;
     width:100%;
+   
 }
 
 body {
@@ -76,37 +80,38 @@ body {
 }
 
 #articulo2{
-    
+    float:left;
     width:50%;
     text-align: center
 }
 
 #articulo3 {
     width:50%;
-    float:right;
-    position:relative;
-    bottom:13rem;
+    float:left;
+
     text-align: center
 }
 
 
 .mascotas {
 
-    width:32%;
+    width:30%;
     text-align:center;
     padding: 0px 5px 0px 5px;
 }
+#perros{
+float:left;
+
+}
 
 #gatos {
-    float:right;
-    position:relative;
-    bottom:28rem;
+    float:left;
+
 }
 
 #elefantes{
-    float:right;
-    position:relative;
-    bottom:32rem;
+    float:left;
+ 
 }
 
 
@@ -121,8 +126,9 @@ body {
 
 }
 
-#img-clientes{
-    position:relative;
-    bottom: 430px;
-    margin-left:-50px;
-}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
